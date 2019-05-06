@@ -1,6 +1,4 @@
 # ChattingAppDemo
-demonstrate how to build a chatting interface: draw chat bubble ,view uploaded pictures with fancy animations...
-
 This project is to show how I deal with the appearance of a normal chatting app, 
 all pictures and conversations are saved to UserDefault.
 
