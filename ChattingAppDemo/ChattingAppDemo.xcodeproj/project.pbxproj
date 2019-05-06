@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA4E3A92276EE80008EBE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3A82276EE80008EBE79 /* AppDelegate.swift */; };
+		FDA4E3B02276EE82008EBE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E3AF2276EE82008EBE79 /* Assets.xcassets */; };
+		FDA4E3B32276EE82008EBE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E3B12276EE82008EBE79 /* LaunchScreen.storyboard */; };
+		FDA4E4162276EF37008EBE79 /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3D92276EF37008EBE79 /* PictureDetailViewController.swift */; };
+		FDA4E4172276EF37008EBE79 /* PictureDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E3DA2276EF37008EBE79 /* PictureDetailViewController.xib */; };
+		FDA4E4182276EF37008EBE79 /* PanDismissController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3DB2276EF37008EBE79 /* PanDismissController.swift */; };
+		FDA4E4192276EF37008EBE79 /* OverviewPicturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E3DC2276EF37008EBE79 /* OverviewPicturesViewController.xib */; };
+		FDA4E41A2276EF37008EBE79 /* PanPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3DD2276EF37008EBE79 /* PanPresentController.swift */; };
+		FDA4E41B2276EF37008EBE79 /* VeilPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3DE2276EF37008EBE79 /* VeilPresentationController.swift */; };
+		FDA4E41C2276EF37008EBE79 /* imgInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3E02276EF37008EBE79 /* imgInfo.swift */; };
+		FDA4E41D2276EF37008EBE79 /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E3E22276EF37008EBE79 /* PictureCollectionViewCell.xib */; };
+		FDA4E41E2276EF37008EBE79 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3E32276EF37008EBE79 /* PictureCollectionViewCell.swift */; };
+		FDA4E41F2276EF37008EBE79 /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3E42276EF37008EBE79 /* SwipeInteractionController.swift */; };
+		FDA4E4202276EF37008EBE79 /* OverviewPicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3E52276EF37008EBE79 /* OverviewPicturesViewController.swift */; };
+		FDA4E42C2276EF37008EBE79 /* SeeAllTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E3F52276EF37008EBE79 /* SeeAllTextViewController.xib */; };
+		FDA4E42D2276EF37008EBE79 /* SeeAllTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E3F62276EF37008EBE79 /* SeeAllTextViewController.swift */; };
+		FDA4E4332276EF37008EBE79 /* ChattingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E4002276EF37008EBE79 /* ChattingViewController.xib */; };
+		FDA4E4342276EF37008EBE79 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4012276EF37008EBE79 /* ChattingViewController.swift */; };
+		FDA4E4352276EF37008EBE79 /* conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4032276EF37008EBE79 /* conversation.swift */; };
+		FDA4E4362276EF37008EBE79 /* profileAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4042276EF37008EBE79 /* profileAppearance.swift */; };
+		FDA4E4372276EF37008EBE79 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4052276EF37008EBE79 /* DataStore.swift */; };
+		FDA4E4382276EF37008EBE79 /* converseExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4062276EF37008EBE79 /* converseExamples.swift */; };
+		FDA4E4392276EF37008EBE79 /* BubbleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4072276EF37008EBE79 /* BubbleCollectionViewController.swift */; };
+		FDA4E43A2276EF37008EBE79 /* PhotoConverseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4092276EF37008EBE79 /* PhotoConverseCell.swift */; };
+		FDA4E43B2276EF37008EBE79 /* TextBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E40A2276EF37008EBE79 /* TextBubble.swift */; };
+		FDA4E43C2276EF37008EBE79 /* DateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E40B2276EF37008EBE79 /* DateHeaderView.swift */; };
+		FDA4E43E2276EF37008EBE79 /* PhotoConverseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E40D2276EF37008EBE79 /* PhotoConverseCell.xib */; };
+		FDA4E43F2276EF37008EBE79 /* BubbleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E40E2276EF37008EBE79 /* BubbleCollectionViewCell.swift */; };
+		FDA4E4402276EF37008EBE79 /* BubbleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E40F2276EF37008EBE79 /* BubbleCollectionViewCell.xib */; };
+		FDA4E4412276EF37008EBE79 /* SuperBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4102276EF37008EBE79 /* SuperBubbleCell.swift */; };
+		FDA4E4422276EF37008EBE79 /* BubbleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4112276EF37008EBE79 /* BubbleLayout.swift */; };
+		FDA4E4442276EF37008EBE79 /* BubbleCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4142276EF37008EBE79 /* BubbleCollectionViewDelegate.swift */; };
+		FDA4E4452276EF37008EBE79 /* BubbleCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E4152276EF37008EBE79 /* BubbleCollectionViewController.xib */; };
+		FDA4E4992276F75E008EBE79 /* TableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4842276F75E008EBE79 /* TableView+Utils.swift */; };
+		FDA4E49A2276F75E008EBE79 /* CGImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4852276F75E008EBE79 /* CGImage+Utils.swift */; };
+		FDA4E49B2276F75E008EBE79 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4862276F75E008EBE79 /* CALayerExtension.swift */; };
+		FDA4E49C2276F75E008EBE79 /* UITextViewEXtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4872276F75E008EBE79 /* UITextViewEXtension.swift */; };
+		FDA4E49D2276F75E008EBE79 /* UINavigationController+Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4882276F75E008EBE79 /* UINavigationController+Project.swift */; };
+		FDA4E49E2276F75E008EBE79 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4892276F75E008EBE79 /* StateManager.swift */; };
+		FDA4E49F2276F75E008EBE79 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E48A2276F75E008EBE79 /* UIView+Utils.swift */; };
+		FDA4E4A02276F75E008EBE79 /* CGSize+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E48B2276F75E008EBE79 /* CGSize+Utils.swift */; };
+		FDA4E4A12276F75E008EBE79 /* Int+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E48C2276F75E008EBE79 /* Int+Utils.swift */; };
+		FDA4E4A22276F75E008EBE79 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E48D2276F75E008EBE79 /* UIColor+Utils.swift */; };
+		FDA4E4A32276F75E008EBE79 /* CVImageBuffer+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E48E2276F75E008EBE79 /* CVImageBuffer+Utils.swift */; };
+		FDA4E4A42276F75E008EBE79 /* UIImageView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E48F2276F75E008EBE79 /* UIImageView+Utils.swift */; };
+		FDA4E4A52276F75E008EBE79 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4902276F75E008EBE79 /* Project.swift */; };
+		FDA4E4A62276F75E008EBE79 /* CGFloat+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4912276F75E008EBE79 /* CGFloat+Utils.swift */; };
+		FDA4E4A72276F75E008EBE79 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E4932276F75E008EBE79 /* LoadingViewController.xib */; };
+		FDA4E4A82276F75E008EBE79 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4942276F75E008EBE79 /* LoadingViewController.swift */; };
+		FDA4E4A92276F75E008EBE79 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4952276F75E008EBE79 /* UIViewController+Utils.swift */; };
+		FDA4E4AA2276F75E008EBE79 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4962276F75E008EBE79 /* UIImage+Utils.swift */; };
+		FDA4E4AB2276F75E008EBE79 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4972276F75E008EBE79 /* Utils.swift */; };
+		FDA4E4AC2276F75E008EBE79 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E4982276F75E008EBE79 /* String+Utils.swift */; };
+		FDF142172279A37E00BE4C0D /* UIViewController+Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF142162279A37E00BE4C0D /* UIViewController+Project.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDA4E3A52276EE80008EBE79 /* ChattingAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattingAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA4E3A82276EE80008EBE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA4E3AF2276EE82008EBE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA4E3B22276EE82008EBE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA4E3B42276EE82008EBE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA4E3D92276EF37008EBE79 /* PictureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		FDA4E3DA2276EF37008EBE79 /* PictureDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureDetailViewController.xib; sourceTree = "<group>"; };
+		FDA4E3DB2276EF37008EBE79 /* PanDismissController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanDismissController.swift; sourceTree = "<group>"; };
+		FDA4E3DC2276EF37008EBE79 /* OverviewPicturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverviewPicturesViewController.xib; sourceTree = "<group>"; };
+		FDA4E3DD2276EF37008EBE79 /* PanPresentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanPresentController.swift; sourceTree = "<group>"; };
+		FDA4E3DE2276EF37008EBE79 /* VeilPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeilPresentationController.swift; sourceTree = "<group>"; };
+		FDA4E3E02276EF37008EBE79 /* imgInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgInfo.swift; sourceTree = "<group>"; };
+		FDA4E3E22276EF37008EBE79 /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		FDA4E3E32276EF37008EBE79 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		FDA4E3E42276EF37008EBE79 /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
+		FDA4E3E52276EF37008EBE79 /* OverviewPicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewPicturesViewController.swift; sourceTree = "<group>"; };
+		FDA4E3F52276EF37008EBE79 /* SeeAllTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeeAllTextViewController.xib; sourceTree = "<group>"; };
+		FDA4E3F62276EF37008EBE79 /* SeeAllTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllTextViewController.swift; sourceTree = "<group>"; };
+		FDA4E4002276EF37008EBE79 /* ChattingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChattingViewController.xib; sourceTree = "<group>"; };
+		FDA4E4012276EF37008EBE79 /* ChattingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		FDA4E4032276EF37008EBE79 /* conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversation.swift; sourceTree = "<group>"; };
+		FDA4E4042276EF37008EBE79 /* profileAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileAppearance.swift; sourceTree = "<group>"; };
+		FDA4E4052276EF37008EBE79 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		FDA4E4062276EF37008EBE79 /* converseExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = converseExamples.swift; sourceTree = "<group>"; };
+		FDA4E4072276EF37008EBE79 /* BubbleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleCollectionViewController.swift; sourceTree = "<group>"; };
+		FDA4E4092276EF37008EBE79 /* PhotoConverseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoConverseCell.swift; sourceTree = "<group>"; };
+		FDA4E40A2276EF37008EBE79 /* TextBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBubble.swift; sourceTree = "<group>"; };
+		FDA4E40B2276EF37008EBE79 /* DateHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHeaderView.swift; sourceTree = "<group>"; };
+		FDA4E40D2276EF37008EBE79 /* PhotoConverseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoConverseCell.xib; sourceTree = "<group>"; };
+		FDA4E40E2276EF37008EBE79 /* BubbleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FDA4E40F2276EF37008EBE79 /* BubbleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleCollectionViewCell.xib; sourceTree = "<group>"; };
+		FDA4E4102276EF37008EBE79 /* SuperBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperBubbleCell.swift; sourceTree = "<group>"; };
+		FDA4E4112276EF37008EBE79 /* BubbleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleLayout.swift; sourceTree = "<group>"; };
+		FDA4E4142276EF37008EBE79 /* BubbleCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		FDA4E4152276EF37008EBE79 /* BubbleCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleCollectionViewController.xib; sourceTree = "<group>"; };
+		FDA4E4842276F75E008EBE79 /* TableView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E4852276F75E008EBE79 /* CGImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E4862276F75E008EBE79 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		FDA4E4872276F75E008EBE79 /* UITextViewEXtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewEXtension.swift; sourceTree = "<group>"; };
+		FDA4E4882276F75E008EBE79 /* UINavigationController+Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Project.swift"; sourceTree = "<group>"; };
+		FDA4E4892276F75E008EBE79 /* StateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
+		FDA4E48A2276F75E008EBE79 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E48B2276F75E008EBE79 /* CGSize+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E48C2276F75E008EBE79 /* Int+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E48D2276F75E008EBE79 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E48E2276F75E008EBE79 /* CVImageBuffer+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVImageBuffer+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E48F2276F75E008EBE79 /* UIImageView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E4902276F75E008EBE79 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		FDA4E4912276F75E008EBE79 /* CGFloat+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E4932276F75E008EBE79 /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		FDA4E4942276F75E008EBE79 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		FDA4E4952276F75E008EBE79 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E4962276F75E008EBE79 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		FDA4E4972276F75E008EBE79 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FDA4E4982276F75E008EBE79 /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		FDF142162279A37E00BE4C0D /* UIViewController+Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Project.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA4E3A22276EE80008EBE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA4E39C2276EE80008EBE79 = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3A72276EE80008EBE79 /* ChattingAppDemo */,
+				FDA4E3A62276EE80008EBE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA4E3A62276EE80008EBE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3A52276EE80008EBE79 /* ChattingAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA4E3A72276EE80008EBE79 /* ChattingAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3A82276EE80008EBE79 /* AppDelegate.swift */,
+				FDA4E3D72276EF37008EBE79 /* chat */,
+				FDA4E4832276F75E008EBE79 /* MyLibrary */,
+				FDA4E3AF2276EE82008EBE79 /* Assets.xcassets */,
+				FDA4E3B12276EE82008EBE79 /* LaunchScreen.storyboard */,
+				FDA4E3B42276EE82008EBE79 /* Info.plist */,
+			);
+			path = ChattingAppDemo;
+			sourceTree = "<group>";
+		};
+		FDA4E3D72276EF37008EBE79 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3D82276EF37008EBE79 /* DisplayPictures */,
+				FDA4E3F92276EF37008EBE79 /* main */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		FDA4E3D82276EF37008EBE79 /* DisplayPictures */ = {
+			isa = PBXGroup;
+			children = (
+				FDF1421B227AEB8C00BE4C0D /* helper */,
+				FDA4E3D92276EF37008EBE79 /* PictureDetailViewController.swift */,
+				FDA4E3DA2276EF37008EBE79 /* PictureDetailViewController.xib */,
+				FDA4E3DC2276EF37008EBE79 /* OverviewPicturesViewController.xib */,
+				FDA4E3E52276EF37008EBE79 /* OverviewPicturesViewController.swift */,
+				FDA4E3DF2276EF37008EBE79 /* modules */,
+				FDA4E3E12276EF37008EBE79 /* views */,
+			);
+			path = DisplayPictures;
+			sourceTree = "<group>";
+		};
+		FDA4E3DF2276EF37008EBE79 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3E02276EF37008EBE79 /* imgInfo.swift */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		FDA4E3E12276EF37008EBE79 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3E22276EF37008EBE79 /* PictureCollectionViewCell.xib */,
+				FDA4E3E32276EF37008EBE79 /* PictureCollectionViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FDA4E3F42276EF37008EBE79 /* SeeAllText */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3F52276EF37008EBE79 /* SeeAllTextViewController.xib */,
+				FDA4E3F62276EF37008EBE79 /* SeeAllTextViewController.swift */,
+			);
+			path = SeeAllText;
+			sourceTree = "<group>";
+		};
+		FDA4E3F92276EF37008EBE79 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E4022276EF37008EBE79 /* models */,
+				FDA4E4082276EF37008EBE79 /* views */,
+				FDA4E4122276EF37008EBE79 /* protocols */,
+				FDA4E4002276EF37008EBE79 /* ChattingViewController.xib */,
+				FDA4E4012276EF37008EBE79 /* ChattingViewController.swift */,
+				FDA4E4152276EF37008EBE79 /* BubbleCollectionViewController.xib */,
+				FDA4E4072276EF37008EBE79 /* BubbleCollectionViewController.swift */,
+				FDF1421A227AEB3500BE4C0D /* helper */,
+				FDA4E3F42276EF37008EBE79 /* SeeAllText */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		FDA4E4022276EF37008EBE79 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E4032276EF37008EBE79 /* conversation.swift */,
+				FDA4E4042276EF37008EBE79 /* profileAppearance.swift */,
+				FDA4E4052276EF37008EBE79 /* DataStore.swift */,
+				FDA4E4062276EF37008EBE79 /* converseExamples.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FDA4E4082276EF37008EBE79 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E40A2276EF37008EBE79 /* TextBubble.swift */,
+				FDA4E40B2276EF37008EBE79 /* DateHeaderView.swift */,
+				FDA4E4092276EF37008EBE79 /* PhotoConverseCell.swift */,
+				FDA4E40D2276EF37008EBE79 /* PhotoConverseCell.xib */,
+				FDA4E40E2276EF37008EBE79 /* BubbleCollectionViewCell.swift */,
+				FDA4E40F2276EF37008EBE79 /* BubbleCollectionViewCell.xib */,
+				FDA4E4102276EF37008EBE79 /* SuperBubbleCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FDA4E4122276EF37008EBE79 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E4142276EF37008EBE79 /* BubbleCollectionViewDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		FDA4E4832276F75E008EBE79 /* MyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E4922276F75E008EBE79 /* Loader */,
+				FDA4E4842276F75E008EBE79 /* TableView+Utils.swift */,
+				FDA4E4852276F75E008EBE79 /* CGImage+Utils.swift */,
+				FDA4E4862276F75E008EBE79 /* CALayerExtension.swift */,
+				FDA4E4872276F75E008EBE79 /* UITextViewEXtension.swift */,
+				FDA4E4882276F75E008EBE79 /* UINavigationController+Project.swift */,
+				FDA4E4892276F75E008EBE79 /* StateManager.swift */,
+				FDA4E48A2276F75E008EBE79 /* UIView+Utils.swift */,
+				FDA4E48B2276F75E008EBE79 /* CGSize+Utils.swift */,
+				FDA4E48C2276F75E008EBE79 /* Int+Utils.swift */,
+				FDA4E48D2276F75E008EBE79 /* UIColor+Utils.swift */,
+				FDA4E48E2276F75E008EBE79 /* CVImageBuffer+Utils.swift */,
+				FDA4E48F2276F75E008EBE79 /* UIImageView+Utils.swift */,
+				FDA4E4902276F75E008EBE79 /* Project.swift */,
+				FDA4E4912276F75E008EBE79 /* CGFloat+Utils.swift */,
+				FDF142162279A37E00BE4C0D /* UIViewController+Project.swift */,
+				FDA4E4952276F75E008EBE79 /* UIViewController+Utils.swift */,
+				FDA4E4962276F75E008EBE79 /* UIImage+Utils.swift */,
+				FDA4E4972276F75E008EBE79 /* Utils.swift */,
+				FDA4E4982276F75E008EBE79 /* String+Utils.swift */,
+			);
+			path = MyLibrary;
+			sourceTree = "<group>";
+		};
+		FDA4E4922276F75E008EBE79 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E4932276F75E008EBE79 /* LoadingViewController.xib */,
+				FDA4E4942276F75E008EBE79 /* LoadingViewController.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		FDF1421A227AEB3500BE4C0D /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E4112276EF37008EBE79 /* BubbleLayout.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		FDF1421B227AEB8C00BE4C0D /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4E3DB2276EF37008EBE79 /* PanDismissController.swift */,
+				FDA4E3DD2276EF37008EBE79 /* PanPresentController.swift */,
+				FDA4E3DE2276EF37008EBE79 /* VeilPresentationController.swift */,
+				FDA4E3E42276EF37008EBE79 /* SwipeInteractionController.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA4E3A42276EE80008EBE79 /* ChattingAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA4E3B72276EE82008EBE79 /* Build configuration list for PBXNativeTarget "ChattingAppDemo" */;
+			buildPhases = (
+				FDA4E3A12276EE80008EBE79 /* Sources */,
+				FDA4E3A22276EE80008EBE79 /* Frameworks */,
+				FDA4E3A32276EE80008EBE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChattingAppDemo;
+			productName = ChattingAppDemo;
+			productReference = FDA4E3A52276EE80008EBE79 /* ChattingAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA4E39D2276EE80008EBE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = shelin;
+				TargetAttributes = {
+					FDA4E3A42276EE80008EBE79 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FDA4E3A02276EE80008EBE79 /* Build configuration list for PBXProject "ChattingAppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA4E39C2276EE80008EBE79;
+			productRefGroup = FDA4E3A62276EE80008EBE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA4E3A42276EE80008EBE79 /* ChattingAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA4E3A32276EE80008EBE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA4E4402276EF37008EBE79 /* BubbleCollectionViewCell.xib in Resources */,
+				FDA4E4332276EF37008EBE79 /* ChattingViewController.xib in Resources */,
+				FDA4E4192276EF37008EBE79 /* OverviewPicturesViewController.xib in Resources */,
+				FDA4E3B32276EE82008EBE79 /* LaunchScreen.storyboard in Resources */,
+				FDA4E42C2276EF37008EBE79 /* SeeAllTextViewController.xib in Resources */,
+				FDA4E3B02276EE82008EBE79 /* Assets.xcassets in Resources */,
+				FDA4E4A72276F75E008EBE79 /* LoadingViewController.xib in Resources */,
+				FDA4E4452276EF37008EBE79 /* BubbleCollectionViewController.xib in Resources */,
+				FDA4E4172276EF37008EBE79 /* PictureDetailViewController.xib in Resources */,
+				FDA4E41D2276EF37008EBE79 /* PictureCollectionViewCell.xib in Resources */,
+				FDA4E43E2276EF37008EBE79 /* PhotoConverseCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA4E3A12276EE80008EBE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA4E4AC2276F75E008EBE79 /* String+Utils.swift in Sources */,
+				FDA4E4352276EF37008EBE79 /* conversation.swift in Sources */,
+				FDA4E4A82276F75E008EBE79 /* LoadingViewController.swift in Sources */,
+				FDA4E4A12276F75E008EBE79 /* Int+Utils.swift in Sources */,
+				FDA4E4A32276F75E008EBE79 /* CVImageBuffer+Utils.swift in Sources */,
+				FDA4E49E2276F75E008EBE79 /* StateManager.swift in Sources */,
+				FDA4E49D2276F75E008EBE79 /* UINavigationController+Project.swift in Sources */,
+				FDA4E4362276EF37008EBE79 /* profileAppearance.swift in Sources */,
+				FDA4E4A42276F75E008EBE79 /* UIImageView+Utils.swift in Sources */,
+				FDA4E43C2276EF37008EBE79 /* DateHeaderView.swift in Sources */,
+				FDA4E4A52276F75E008EBE79 /* Project.swift in Sources */,
+				FDA4E49C2276F75E008EBE79 /* UITextViewEXtension.swift in Sources */,
+				FDA4E4A22276F75E008EBE79 /* UIColor+Utils.swift in Sources */,
+				FDA4E4392276EF37008EBE79 /* BubbleCollectionViewController.swift in Sources */,
+				FDA4E4AA2276F75E008EBE79 /* UIImage+Utils.swift in Sources */,
+				FDA4E43A2276EF37008EBE79 /* PhotoConverseCell.swift in Sources */,
+				FDA4E43F2276EF37008EBE79 /* BubbleCollectionViewCell.swift in Sources */,
+				FDA4E41F2276EF37008EBE79 /* SwipeInteractionController.swift in Sources */,
+				FDA4E41C2276EF37008EBE79 /* imgInfo.swift in Sources */,
+				FDA4E4A92276F75E008EBE79 /* UIViewController+Utils.swift in Sources */,
+				FDA4E4422276EF37008EBE79 /* BubbleLayout.swift in Sources */,
+				FDA4E4202276EF37008EBE79 /* OverviewPicturesViewController.swift in Sources */,
+				FDA4E4AB2276F75E008EBE79 /* Utils.swift in Sources */,
+				FDF142172279A37E00BE4C0D /* UIViewController+Project.swift in Sources */,
+				FDA4E41B2276EF37008EBE79 /* VeilPresentationController.swift in Sources */,
+				FDA4E4442276EF37008EBE79 /* BubbleCollectionViewDelegate.swift in Sources */,
+				FDA4E4372276EF37008EBE79 /* DataStore.swift in Sources */,
+				FDA4E4182276EF37008EBE79 /* PanDismissController.swift in Sources */,
+				FDA4E4162276EF37008EBE79 /* PictureDetailViewController.swift in Sources */,
+				FDA4E4382276EF37008EBE79 /* converseExamples.swift in Sources */,
+				FDA4E41E2276EF37008EBE79 /* PictureCollectionViewCell.swift in Sources */,
+				FDA4E3A92276EE80008EBE79 /* AppDelegate.swift in Sources */,
+				FDA4E49F2276F75E008EBE79 /* UIView+Utils.swift in Sources */,
+				FDA4E42D2276EF37008EBE79 /* SeeAllTextViewController.swift in Sources */,
+				FDA4E43B2276EF37008EBE79 /* TextBubble.swift in Sources */,
+				FDA4E49A2276F75E008EBE79 /* CGImage+Utils.swift in Sources */,
+				FDA4E49B2276F75E008EBE79 /* CALayerExtension.swift in Sources */,
+				FDA4E4992276F75E008EBE79 /* TableView+Utils.swift in Sources */,
+				FDA4E4342276EF37008EBE79 /* ChattingViewController.swift in Sources */,
+				FDA4E41A2276EF37008EBE79 /* PanPresentController.swift in Sources */,
+				FDA4E4412276EF37008EBE79 /* SuperBubbleCell.swift in Sources */,
+				FDA4E4A02276F75E008EBE79 /* CGSize+Utils.swift in Sources */,
+				FDA4E4A62276F75E008EBE79 /* CGFloat+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDA4E3B12276EE82008EBE79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA4E3B22276EE82008EBE79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA4E3B52276EE82008EBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA4E3B62276EE82008EBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA4E3B82276EE82008EBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8T775R7WH;
+				INFOPLIST_FILE = ChattingAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChattingAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA4E3B92276EE82008EBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8T775R7WH;
+				INFOPLIST_FILE = ChattingAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChattingAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA4E3A02276EE80008EBE79 /* Build configuration list for PBXProject "ChattingAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA4E3B52276EE82008EBE79 /* Debug */,
+				FDA4E3B62276EE82008EBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA4E3B72276EE82008EBE79 /* Build configuration list for PBXNativeTarget "ChattingAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA4E3B82276EE82008EBE79 /* Debug */,
+				FDA4E3B92276EE82008EBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA4E39D2276EE80008EBE79 /* Project object */;
+}
