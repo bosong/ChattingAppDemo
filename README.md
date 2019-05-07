@@ -16,5 +16,5 @@ OverviewPicturesViewController and PictureDetailViewController are used to defin
 They both have a BubbleCollectionViewDelegate, to share the information of their visible pictures, such as position, size,
 which are needed to make animated transition when presenting and dismissing picture viewer.
 
-
+![demo1](https://github.com/vanessashe/ChattingAppDemo/tree/master/MyImages/demmo1.gif)
 
