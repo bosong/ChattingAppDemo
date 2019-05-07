@@ -2,7 +2,7 @@
 This project is to show how I deal with the appearance of a normal chatting app, 
 all pictures and conversations are saved to UserDefault.
 <div align="center">
-<img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo2.gif" width="160" />
+<img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo2.gif" width="180" />
 </div>
 
 ### How to draw chat bubble programmatically:
