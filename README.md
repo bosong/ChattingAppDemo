@@ -17,4 +17,4 @@ They both have a BubbleCollectionViewDelegate, to share the information of their
 which are needed to make animated transition when presenting and dismissing picture viewer.
 
 
-![demo](https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo-480.mov)
+
