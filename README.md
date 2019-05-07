@@ -2,6 +2,9 @@
 This project is to show how I deal with the appearance of a normal chatting app, 
 all pictures and conversations are saved to UserDefault.
 
+<img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo2.gif" width="160" />
+
+
 ### How to draw chat bubble programmatically:
 see ⁨ChattingAppDemo⁩/⁨chat⁩/⁨main⁩/⁨views⁩/BubbleCollectionViewCell.swift and BubbleCollectionViewCell.xib
 
@@ -18,4 +21,4 @@ which are needed to make animated transition when presenting and dismissing pict
 
 
 
-<img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo2.gif" width="160" />
+
