@@ -1,7 +1,13 @@
 # ChattingAppDemo
 This project is to show how I deal with the appearance of a normal chatting app, 
 all pictures and conversations are saved to UserDefault.
-
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 <img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo2.gif" width="160" />
 
 
