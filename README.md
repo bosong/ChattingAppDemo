@@ -18,4 +18,4 @@ which are needed to make animated transition when presenting and dismissing pict
 
 
 
-<img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo1.gif" width="240" />
+<img src="https://github.com/vanessashe/ChattingAppDemo/raw/master/MyImages/demo1.gif" width="160" />
