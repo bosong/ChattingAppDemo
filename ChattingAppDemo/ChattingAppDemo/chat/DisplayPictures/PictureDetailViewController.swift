@@ -35,7 +35,7 @@ class PictureDetailViewController: UIViewController {
         }
     }
     
-    var delegate: BubbleCollectionViewDelegate?
+    weak var delegate: BubbleCollectionViewDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()

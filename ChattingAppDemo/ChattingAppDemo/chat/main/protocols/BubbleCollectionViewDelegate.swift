@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol BubbleCollectionViewDelegate {
+protocol BubbleCollectionViewDelegate:class {
 //    func profileOverview()
     func viewPicture(profile: profileAppearance, selectedImage: String)
     func resignKeyboard()

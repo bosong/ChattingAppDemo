@@ -17,7 +17,7 @@ class SuperBubbleCell: UICollectionViewCell {
     private var loadingView: UIView?
     private let activityLoader = UIActivityIndicatorView(style: .white)
     private var bgColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
-    var delegate: BubbleCollectionViewDelegate?
+    weak var delegate: BubbleCollectionViewDelegate?
     var profile: profileAppearance?
     
     private var showProfile = false {

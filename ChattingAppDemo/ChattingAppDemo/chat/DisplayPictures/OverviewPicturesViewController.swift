@@ -19,7 +19,7 @@ class OverviewPicturesViewController: UIViewController {
     private var collectionVC = PictureDetailViewController()
     private var selectedImg: UIImage?
     
-    var delegate: BubbleCollectionViewDelegate?
+    weak var delegate: BubbleCollectionViewDelegate?
     var photoReturningCompletion: (() -> (Void))?
     var initialPhotoFrame = CGRect.zero
     var destinationFrame = CGRect.zero

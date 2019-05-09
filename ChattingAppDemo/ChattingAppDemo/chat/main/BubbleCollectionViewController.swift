@@ -14,7 +14,7 @@ class BubbleCollectionViewController: UIViewController {
     
     let cellID = ["BubbleCollectionViewCell","PhotoConverseCell"]
     var layout: UICollectionViewFlowLayout?
-    var delegate: BubbleCollectionViewDelegate?
+    weak var delegate: BubbleCollectionViewDelegate?
     var profileInfo: profileAppearance!
     let dataStore = DataStore()
     var shouldScrollToBottom = true
