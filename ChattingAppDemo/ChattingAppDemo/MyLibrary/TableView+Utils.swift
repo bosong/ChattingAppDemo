@@ -14,8 +14,8 @@ extension Utils where Base == UITableView {
     }
     
     func registCells(with nibNames: [String]) {
-        _ = nibNames.map {
-            base.utils.registCell(with: $0)
+        nibNames.forEach { (name) in
+            base.utils.registCell(with: name)
         }
     }
 }
@@ -29,9 +29,8 @@ extension Utils where Base == UICollectionView {
     }
     
     func registCells(with nibNames: [String]) {
-        _ = nibNames.map {
-            base.utils.registCell(with: $0)
+        nibNames.forEach { (name) in
+            base.utils.registCell(with: name)
         }
-        
     }
 }
